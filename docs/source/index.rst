@@ -5,10 +5,9 @@ AlignDG: Alignment of spatial transcriptomics slices across diseases, platforms 
 .. toctree::
    :maxdepth: 1
 
+   Installation
    Tutorial_Simulation
    Tutorial_DLPFC
-   Tutorial_Cross_Platforms
-   Tutorial_3D_alignment
 
 
 Overview of AlignDG
