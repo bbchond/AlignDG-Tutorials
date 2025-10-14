@@ -28,13 +28,13 @@ Installation
 
    pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
 
-   After install the necessary packages, you can install AlignDG via pip:
+After install the necessary packages, you can install AlignDG via pip:
 
 .. code-block:: python
 
    pip install aligndg
 
-   Then, check install:
+Then, check install:
 
 .. code-block:: python
 
@@ -50,7 +50,7 @@ Installation
    Input: 
    .. code-block:: python
 
-   python setup.py build
-   python setup.py install
+      python setup.py build
+      python setup.py install
 
 
