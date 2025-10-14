@@ -25,16 +25,19 @@ Installation
    Please also install the necessary supported packages for Pytorch and PyG (https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html) required by AlignDG: 
 
 .. code-block:: python
+
    pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
 
    After install the necessary packages, you can install AlignDG via pip:
 
 .. code-block:: python
+
    pip install aligndg
 
    Then, check install:
 
 .. code-block:: python
+
    import aligndg
    print(aligndg.__version__)
    
@@ -46,6 +49,7 @@ Installation
 
    Input: 
    .. code-block:: python
+
    python setup.py build
    python setup.py install
 
