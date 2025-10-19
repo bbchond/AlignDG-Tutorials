@@ -24,25 +24,25 @@ Note: AlginDG is built based on PyTorch and Jax. If you have an NVIDIA GPU, be s
 
 .. code-block:: python
 
-   conda create --name aligndgpy python=3.10
-   conda activate aligndgpy
+   conda create --name aligndg_py python=3.10
+   conda activate aligndg_py
    pip install aligndg
 
 (Optional) To run the notebook files in tutorials, please ensure the Jupyter package is installed in your environment:
 
 .. code-block:: python
 
-   conda install -n aligndgpy ipykernel
-   python -m ipykernel install --user --name aligndgpy --display-name aligndg-jupyter
+   conda install -n aligndg_py ipykernel
+   python -m ipykernel install --user --name aligndg_py --display-name aligndg-jupyter
 
-Note: If you encounter the error message "ImportError: Please install the skmisc package via `pip install --user scikit-misc`" while executing `sc.pp.highly_variable_genes(adata, flavor='seurat_v3', n_top_genes=3000)`, please execute the following command in your terminal: `pip install -i https://test.pypi.org/simple/ scikit-misc==0.2.0rc1`.
+Note: If you encounter the error message "ImportError: Please install the skmisc package via `pip install --user scikit-misc`" while executing `sc.pp.highly_variable_genes(adata, flavor='seurat_v3', n_top_genes=3000)`, please execute the following command in your terminal: `pip install --user scikit-misc`.
 
 2. Install AlignDG from GitHub (Not recommend)
 
 .. code-block:: python
 
    git clone https://github.com/xkmaxidian/AlignDG
-   cd <your dir path>/AlignDG/AlignDG-package
+   cd <your dir path>/AlignDG/AlignDG_package
    python setup.py build
    python setup.py install
 
