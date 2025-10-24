@@ -8,6 +8,7 @@ AlignDG: Alignment of spatial transcriptomics slices across diseases, platforms 
    Installation
    Tutorial_Simulation
    Tutorial_DLPFC
+   Tutorials_DLPFC_pairwise
 
 
 Overview of AlignDG
